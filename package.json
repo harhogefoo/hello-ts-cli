@@ -19,5 +19,6 @@
   },
   "bin": {
     "hello-ts-cli": "./bin/hello-ts-cli.js"
-  }
+  },
+  "dependencies": {}
 }

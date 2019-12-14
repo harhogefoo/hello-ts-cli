@@ -1,0 +1,23 @@
+{
+  "name": "hello-ts-cli",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": "harhogefoo <harimanmon@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.12.17",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.3",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10",
+    "webpack-merge": "^4.2.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "prepare": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.dev.js --watch"
+  },
+  "bin": {
+    "hello-ts-cli": "./bin/hello-ts-cli.js"
+  }
+}
